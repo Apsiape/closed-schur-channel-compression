@@ -2,9 +2,10 @@
 
 Seth Douglas | [seth.douglas@gmail.com](mailto:seth.douglas@gmail.com)
 
-**Status:** manuscript candidate revised following independent AI-session reviews.
-Not published; no release, repository URL, or DOI has been assigned.
-The intended repository name is **closed-schur-channel-compression**.
+**Status:** published. Version 1.0.0 was released on 2026-09-16 (UTC) and archived by Zenodo.
+Version DOI [10.5281/zenodo.22785669](https://doi.org/10.5281/zenodo.22785669);
+all versions [10.5281/zenodo.22785668](https://doi.org/10.5281/zenodo.22785668).
+Repository: <https://github.com/Apsiape/closed-schur-channel-compression>.
 
 [Read the paper](output/pdf/manuscript.pdf) |
 [Readable proof source](paper/manuscript.md) |

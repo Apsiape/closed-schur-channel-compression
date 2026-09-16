@@ -1,4 +1,10 @@
-# Deposit preparation (not a release)
+# Deposit record
+
+Published: GitHub release v1.0.0 of Apsiape/closed-schur-channel-compression, archived by
+Zenodo as version DOI 10.5281/zenodo.22785669 (all versions 10.5281/zenodo.22785668).
+The notes below describe the preparation that preceded publication.
+
+## Deposit preparation (historical)
 
 Intended repository name: **closed-schur-channel-compression**. This is the
 renamed identity of the existing unpublished project, not a new scientific work.

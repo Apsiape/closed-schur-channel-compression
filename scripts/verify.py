@@ -43,7 +43,7 @@ assert cited==keys, ('citation mismatch',cited^keys)
 assert len(keys)>0
 meta=(root/'CITATION.cff').read_text()
 assert 'Seth' in meta and 'seth.douglas@gmail.com' in meta
-assert 'doi:' not in meta
+assert meta.count('doi: 10.5281/zenodo.22785669') == 2
 assert 'repository-code: https://github.com/Apsiape/closed-schur-channel-compression' in meta
 assert 'independent researcher' not in source.lower()
 reader=PdfReader(root/'output/pdf/manuscript.pdf')

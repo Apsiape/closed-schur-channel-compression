@@ -1,7 +1,8 @@
 cff-version: 1.2.0
 type: software
 version: 1.0.0
-date-released: 2026-09-15
+date-released: 2026-09-16
+doi: 10.5281/zenodo.22785669
 repository-code: https://github.com/Apsiape/closed-schur-channel-compression
 message: "Please cite the manuscript. Licenses are separately scoped in LICENSE.md."
 title: "Closed Mixed-Apparatus Compression of Schur Channels: Exact-Approximate Separation and Scheduled Delivery"
@@ -20,3 +21,6 @@ preferred-citation:
       given-names: Seth
       email: seth.douglas@gmail.com
   year: 2026
+  version: 1.0.0
+  doi: 10.5281/zenodo.22785669
+  url: https://zenodo.org/records/22785669
