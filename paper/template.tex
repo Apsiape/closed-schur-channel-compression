@@ -1,0 +1,29 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=2.6cm]{geometry}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc}
+\usepackage{graphicx}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={$title$},pdfauthor={Seth Douglas}}
+\setlength{\emergencystretch}{3em}
+\setcounter{secnumdepth}{1}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\pandocbounded}[1]{#1}
+\numberwithin{equation}{section}
+\title{$title$}
+\author{Seth Douglas\\\href{mailto:seth.douglas@gmail.com}{\texttt{seth.douglas@gmail.com}}}
+\date{$date$}
+\begin{document}
+\maketitle
+\begin{abstract}
+$abstract$
+\end{abstract}
+$body$
+\bibliographystyle{plainnat}
+\bibliography{references}
+\end{document}

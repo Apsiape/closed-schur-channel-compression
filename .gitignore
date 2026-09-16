@@ -1,0 +1,41 @@
+# Only publication files are eligible for version control.
+/*
+!/.gitignore
+!/.gitattributes
+!/.zenodo.json
+!/README.md
+!/CITATION.cff
+!/LICENSE.md
+!/THEOREMS.md
+!/VALIDATION.md
+!/SOURCE-MAP.json
+!/requirements.txt
+!/SHA256SUMS.txt
+!/LICENSES/
+!/paper/
+!/output/
+!/ancillary/
+!/scripts/
+!/zenodo/
+# Generated files and local caches are never distributed.
+__pycache__/
+*.pyc
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+.lake/
+*.olean
+*.ilean
+*.synctex.gz
+.DS_Store
+Thumbs.db
+# Only the final manuscript is a distributed output.
+/output/*
+!/output/pdf/
+/output/pdf/*
+!/output/pdf/manuscript.pdf

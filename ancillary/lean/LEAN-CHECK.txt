@@ -1,0 +1,57 @@
+Lean (version 4.30.0, x86_64-w64-windows-gnu, commit d024af099ca4bf2c86f649261ebf59565dc8c622, Release)
+mathlib c5ea00351c28e24afc9f0f84379aa41082b1188f
+CHECK ActiveBath.lean
+ActiveBath.lean:41:0: warning: automatically included section variable(s) unused in theorem `ClosedMemory.partialTrace_positive`:
+  [Fintype A]
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype A] [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+ActiveBath.lean:57:0: warning: automatically included section variable(s) unused in theorem `ClosedMemory.partialTrace_trace`:
+  [DecidableEq A]
+  [DecidableEq B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] [DecidableEq B] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+ActiveBath.lean:66:0: warning: automatically included section variable(s) unused in theorem `ClosedMemory.bathLift_adjoint`:
+  [Fintype A]
+  [Fintype B]
+  [DecidableEq B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype A] [Fintype B] [DecidableEq B] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+ActiveBath.lean:88:0: warning: automatically included section variable(s) unused in theorem `ClosedMemory.conjugate_positive`:
+  [DecidableEq A]
+  [DecidableEq B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] [DecidableEq B] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+ActiveBath.lean:106:0: warning: automatically included section variable(s) unused in theorem `ClosedMemory.bathBlock_conjugate`:
+  [DecidableEq B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq B] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'ClosedMemory.partialTrace_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosedMemory.partialTrace_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosedMemory.bathLift_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosedMemory.bathLift_isometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosedMemory.conjugate_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosedMemory.conjugate_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosedMemory.partialTrace_close' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosedMemory.closing_preserves_complete_user' depends on axioms: [propext, Classical.choice, Quot.sound]
+PASS 8 dependency closures: allowed foundations only
+EXIT 0
+CHECK Inventory.lean
+'SchurInventory.square_environment_capacity' does not depend on any axioms
+'SchurInventory.extreme_rank_floor' depends on axioms: [propext]
+'SchurInventory.epoch_partition' depends on axioms: [propext]
+'SchurInventory.epoch_tail_lt' does not depend on any axioms
+'SchurInventory.block_wait' depends on axioms: [propext, Quot.sound]
+'SchurInventory.custody_bound' depends on axioms: [propext, Quot.sound]
+PASS 6 dependency closures: allowed foundations only
+EXIT 0

@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-15",
+  "intended_repository_name": "closed-schur-channel-compression",
+  "scientific_sources": [
+    {
+      "id": "compression-proof-2026-09-14",
+      "description": "September 14 minimal-environment authored proof, privately preserved unchanged",
+      "sha256": "3d600d3f54025cc3ef62d300f580e004f175ba964763675f250552a6a40821f5"
+    },
+    {
+      "id": "analytic-review-2026-09-14",
+      "description": "Independent AI-session review of the construction, converse, and scheduled contract; privately preserved source",
+      "sha256": "57c910780f80bd4c1a462b1bf7f631e9eb4d1adeb41abc26957730b1cd0abc2b"
+    },
+    {
+      "id": "standalone-proof-2026-09-15",
+      "description": "Complete final manuscript source, privately preserved unchanged; source artifact is not itself an independent audit",
+      "sha256": "ae8f26301604c4d81e57bcc0e37d8f5b3489eed0301bdd150c9484e4c7046a5"
+    }
+  ],
+  "editing": [
+    "Retained full core proofs and converted their presentation into a standalone manuscript.",
+    "Added introductory positioning, explicit vectorization transpose and finite amplified inverse bound, T>=2 finite-error qualification, primary citations, AI disclosure, licenses and exact coverage statements.",
+    "Reconciled companion self-citation with the locally verified v1.0.0 public release and DOI archive evidence; no new DOI assigned.",
+    "Generated TeX mechanically from authoritative Markdown and BibTeX using the supplied template.",
+    "Reconciled September 15 independent AI-session reviews with primary sources; clarified approximation, joint-input and scheduled-delivery contracts and attribution."
+  ],
+  "companion_release": {
+    "title": "Bath dimension and initial entropy for closed repeated use of a quantum channel",
+    "author": "Seth Douglas",
+    "version": "1.0.0",
+    "doi": "10.5281/zenodo.22779673",
+    "release_commit": "a79087bb057aef0c025a575bd3df333be9e5da33",
+    "evidence": "Byte-verified release archive and manuscript Definition 1; the earlier finishing pass did not independently retrieve the live web record."
+  },
+  "copied_code": [
+    {"path": "ancillary/lean/ActiveBath.lean", "source": "Author's closed-process-memory MIT ancillary package", "sha256": "78aaffb3d4cae40134c4ac45fa0f412e576bb2a400b911c577611a180c1ae8d6"},
+    {"path": "ancillary/lean/axiom_guard.py", "source": "Same MIT ancillary package", "sha256": "fb71df1e8f11a1016cdb8a886e97f2251e8d39d061d57a79ec66b0eb2e764aa7"},
+    {"path": "ancillary/lean/run_checked.py", "source": "Same MIT ancillary package", "sha256": "428ca26d12932828b94be111b9d224279e756e9fe5db26fc6671a6dc5f1cdef2"},
+    {"path": "ancillary/lean/dependencies.lock.json", "source": "Same pinned package manifest", "sha256": "199b163334827f24289892563831c06ecf6c651a8307575646115f955943f0f7"}
+  ]
+}

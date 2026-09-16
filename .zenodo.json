@@ -1,0 +1,12 @@
+{
+  "title": "Closed Mixed-Apparatus Compression of Schur Channels: Exact-Approximate Separation and Scheduled Delivery",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [{"name": "Douglas, Seth"}],
+  "description": "<p>Preprint by Seth Douglas (seth.douglas@gmail.com). A finite closed mixed-apparatus construction approximates any Schur channel of Gram rank k in half-diamond distance using a physical apparatus of dimension of order epsilon^-2 (sqrt(k) + ln d), with a maximally mixed initializer of rank of order sqrt(k). A universal entropy converse 2Q - P >= S(J) and an exact extreme-channel cost P, Q >= log2 k give, for a known extreme rank-two ququart Schur channel, a matched leading-order exact-versus-vanishing-error separation: exact service needs P = Q = T, while error T^-4 admits Q = T/2 + O(log T) and P = O(log T). A separately scoped scheduled-delivery theorem compares sublogarithmic and superlogarithmic delay under mandatory arrivals, a common release schedule and observation-only stopping. Includes the complete manuscript, TeX source, reproducibility scripts and partial Lean coverage.</p><p><strong>Scoped licenses:</strong> the manuscript, PDF and TeX are licensed under Creative Commons Attribution 4.0 International (CC-BY-4.0). Original code and accompanying software documentation are MIT-licensed. These are separate file-specific licenses, not a choice of license for every file. See LICENSE.md and LICENSES/ in the archive. The aggregate Other (Open) category represents this mixed-license package.</p><p>Lean coverage is partial: fourteen scoped dependency closures, not the headline analytic theorems. The construction is a probabilistic existence proof; no efficient compiler, arbitrary-channel upper bound, caller-paced delivery guarantee or sharp logarithmic-delay frontier is claimed. AI assistance is disclosed in the manuscript. This is a separate sequel to the closed repeated-use memory paper, DOI 10.5281/zenodo.22779673.</p>",
+  "license": "other-open",
+  "access_right": "open",
+  "version": "1.0.0",
+  "keywords": ["quantum information", "quantum channels", "Schur channels", "quantum memory", "channel simulation", "entropy"],
+  "notes": "CC-BY-4.0 applies to the manuscript; MIT applies to original code and software documentation. LICENSE.md specifies the scopes. No affiliation or ORCID is asserted."
+}
